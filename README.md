@@ -28,6 +28,8 @@ light_unitから派生したクラス一覧
     - LEDテープ全体に適応されるエフェクトを追加します。
     - エフェクトは、colorfuncによって指定します。
     - colorfuncは座標dist(0~1.0)と時刻t(ms)を引数に持ち、返り値に[r,g,b](0~255)を持つような関数です。
+![](https://OsakaHeatCool/LED_micropython/edit/main/pic/pic1.png "pic1")
+![](https://OsakaHeatCool/LED_micropython/edit/main/pic/pic2.png "pic2")
 ```python
 # beamの追加例
 argument={
